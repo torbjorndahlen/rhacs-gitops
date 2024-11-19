@@ -10,8 +10,8 @@ spec:
   project: default
   source:
     path: apps/co
-    repoURL: https://github.com/rcarrata/acs-gitops
-    targetRevision: develop
+    repoURL: https://github.com/torbjorndahlen/acs-gitops
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
