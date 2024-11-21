@@ -14,8 +14,8 @@ until oc apply -k bootstrap/base/; do sleep 2; done
 
 This demo contains 4 modes of Installation
 
-* A - Argo App of Apps
-* B - ApplicationSets
+* A - Argo App of Apps (NOTE: (torbjorndahlen) Outdated)
+* B - ApplicationSets (NOTE: (torbjorndahlen) This one has been updated with the correct namespace for the RHACS operator)
 * C - ACM Applications (WIP)
 * D - ACM ApplicationSet (WIP)
 

@@ -19,8 +19,8 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/rcarrata/acs-gitops
-        targetRevision: develop
+        repoURL: https://github.com/torbjorndahlen/acs-gitops
+        targetRevision: main
         path: '{{path}}'
       destination:
         server: https://kubernetes.default.svc
