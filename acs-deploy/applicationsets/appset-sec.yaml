@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/torbjorndahlen/acs-gitops
+      repoURL: https://github.com/torbjorndahlen/rhacs-gitops
       revision: main
       directories:
       - path: apps/*
@@ -20,7 +20,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/torbjorndahlen/acs-gitops
+        repoURL: https://github.com/torbjorndahlen/rhacs-gitops
         targetRevision: main
         path: '{{path}}'
       destination:
