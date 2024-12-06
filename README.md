@@ -27,6 +27,8 @@ oc apply -k acs-deploy/applications
 
 ## B - Install ACS through gitops using ApplicationSets (in local cluster)
 
+### TODO: Create rhacs-operator namespace
+
 ```
 oc apply -k acs-deploy/applicationsets
 ```

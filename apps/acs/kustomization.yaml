@@ -5,6 +5,7 @@ commonAnnotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 resources:
+  - 0.ro.ns.yaml
   - 1.ns.yaml
   - 2.subs.yaml
   - 3.rbac.yaml
